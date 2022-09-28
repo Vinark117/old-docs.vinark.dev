@@ -1,3 +1,13 @@
-# Tileruler - Better rule tiles for Unity
+# Better rule tiles for Unity
 
-Front page
+This package was made to make the hassle of creating rule tiles for your Unity game better, easier and more intuitive than the regular rule tiles, while also adding more features which would not be availible unless you code it yourself.
+
+It's main features include:
+- Draw in all the tile placement possibilities into a single grid, no need to set rules by hand.
+- Edit multiple tiles on one grid, and save them into a single asset for better file organization.
+- Includes more rules than the default rule tile, which enables different tiles to interact with eachother on the tilemap.
+- Automatically orders the rules for you, so one rule will not override the rest accidentally.
+- Adding extended neighbors to a tile takes significally less time.
+- Easily create sloped and other variations of a tile.
+- Quickly create new tiles if you've already set one up prior.
+- Supports square, isometric and hexagonal grids as well.
