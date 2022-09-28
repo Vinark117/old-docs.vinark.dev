@@ -1,4 +1,4 @@
-# Better rule tiles for Unity
+# Better rule tiles for Unity <!-- {docsify-ignore-all} -->
 
 This package was made to make the hassle of creating rule tiles for your Unity game better, easier and more intuitive than the regular rule tiles, while also adding more features which would not be availible unless you code it yourself.
 
@@ -12,7 +12,7 @@ It's main features include:
 - Quickly create new tiles if you've already set one up prior.
 - Supports square, isometric and hexagonal grids as well.
 
-## Development
+## Development <!-- {docsify-ignore} -->
 
 Follow the state of the project's development on it's [trello page](https://trello.com/b/pLpR4pdV/better-rule-tile).<br>
 Found a bug? You can report it [here](https://itch.io/t/2381185/bug-reports).<br>
