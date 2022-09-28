@@ -11,3 +11,11 @@ It's main features include:
 - Easily create sloped and other variations of a tile.
 - Quickly create new tiles if you've already set one up prior.
 - Supports square, isometric and hexagonal grids as well.
+
+## Development
+
+Follow the state of the project's development on it's [trello page](https://trello.com/b/pLpR4pdV/better-rule-tile).<br>
+Found a bug? You can report it [here](https://itch.io/t/2381185/bug-reports).<br>
+Do you have an idea you feel like should be added to the tool? You can post it [here](https://itch.io/t/2381181/feature-request).<br>
+Get involved in the development of this and other projects on my [discord server](https://discord.gg/DKpbVKk).<br>
+Find tutorials about the package, and other useful and interesting content on my [youtube channel](https://www.youtube.com/channel/UCo-V8qAlHZWFRkUDCtc0cyQ).<br>

@@ -8,6 +8,7 @@
 
 <br>
 
+### Social Links
 * [Discord](https://discord.gg/DKpbVKk)
 * [Youtube](https://www.youtube.com/channel/UCo-V8qAlHZWFRkUDCtc0cyQ)
 * [Twitter](https://twitter.com/VinarkDev)
