@@ -1,3 +1,3 @@
-# Better Rule TIles
+# Tileruler - Better rule tiles for Unity
 
 Front page
