@@ -1,8 +1,8 @@
+___
+
 # Getting started
 
 To start using the tool first you need to create a "Better rule tile container" asset. This asset is the core of the tool. Everything you do will be saved into this container asset, therefore you must create one before you start doing anything else.
-
-# Creating a "Better Rule Tile Container" asset
 
 To create an asset, right click in the project window, and navigate to: **Create -> 2D -> Tiles -> Better Rule Tile Container**, and click on it.
 
