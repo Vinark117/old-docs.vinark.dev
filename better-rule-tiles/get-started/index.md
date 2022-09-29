@@ -1,4 +1,4 @@
-___
+# <!-- {docsify-ignore} -->
 
 # Getting started
 
