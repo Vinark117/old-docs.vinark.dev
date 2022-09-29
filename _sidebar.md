@@ -1,9 +1,9 @@
-* # **Docs.Vinark.Dev**  <!-- {docsify-ignore} -->
+* <t style="font-size:3vw; font-weight:bold">Docs.Vinark.Dev</t>
 * [HOME](./)
 
 <br>
 
-* # **Better Rule Tiles** <!-- {docsify-ignore} -->
+* <t style="font-size:3vw; font-weight:bold">Better Rule Tiles</t>
 * [About](./better-rule-tiles/index)
 * [Get Started](./better-rule-tiles/get-started)
 * [User Interface](./better-rule-tiles/user-interface)

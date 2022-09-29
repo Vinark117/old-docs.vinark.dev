@@ -17,7 +17,7 @@ It's main features include:
 Try out the demo or buy the packgage on [itch.io](https://vinarkgames.itch.io/better-rule-tiles-for-unity).
 <!--or the [Unity Asset Store]()-->
 
-Get Started with the tool on the [get started](https://docs.vinark.dev/#/./better-rule-tiles/get-started) page.
+Get Started with the tool on the [get started](./better-rule-tiles/get-started)<!--(https://docs.vinark.dev/#/./better-rule-tiles/get-started)--> page.
 
 # Development
 
