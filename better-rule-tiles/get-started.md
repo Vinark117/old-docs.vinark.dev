@@ -12,10 +12,16 @@ To create an asset, right click in the project window, and navigate to: **Create
 
 After you've created a "Better rule tile container" asset, you can open the editor by **double clicking the asset**, or by **pressing open in the inspector** when the asset is selected. 
 
+![Open asset](./images/open-asset.png)
+
 > *Note that you shouldn't edit this asset directly, but only through the editor to avoid errors. Only edit the asset directly for debugging purposes!*
 
 If you have multiple container assets, each asset will open in it's own editor window. If the asset is already open in an editor, opening the asset will bring that editor window in front.
 
 Deleting a container asset will close the editor window editing that asset.
 
-# The Better Rule Tile editor
+# The rule tile editor
+
+![Default editor window](./images/editor-window-default.png)
+
+When you open a new file you'll see this window

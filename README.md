@@ -1,4 +1,4 @@
-# Docs.Vinark.Dev <!-- {docsify-ignore} -->
+# Vinark's Docs <!-- {docsify-ignore} -->
 
 Documentation website for all things made by Vinark117.
 

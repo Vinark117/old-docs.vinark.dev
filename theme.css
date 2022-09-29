@@ -1,5 +1,34 @@
 :root {
-    --progress: #42a1b9;
+    --theme-color: #42b983;
+    --body-col: #34495e;
+    --background-1: #fff;
+    --background-2: #eee;
+    --background-3: #ddd;
+    --background-4: #ccc;
+    --markdown-bg: #f8f8f8;
+    --markdown-edge: #efefef;
+    --sidebar-bg: #364149;
+    --sidebar-ul: #505d6b;
+    --markdown: #f66;
+    --markdown-bold: #2c3e50;
+    --markdown-h: #777;
+    --markdown-block: #858585;
+    --markdown-em: #7f8c8d;
+
+    --md-code: #e96900;
+    --md-pre-code: #525252;
+    --token-important: #c94922;
+    --token-inserted: #202746;
+    --token-variable: #3d8fd1;
+    --token-atrule: #22a2c9;
+    --token-string: #22a2c9;
+    --token-attr-name:#2973b7;
+    --token-tag:#2973b7;
+    --token-selector:#6679cc;
+    --token-punctuation: #525252;
+    --token-property: #c08b30;
+    --token-number: #c76b29;
+    --token-cdata: #8e908c;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro:300,400,600");
@@ -33,7 +62,7 @@ div#app:empty::before {
   vertical-align: middle;
 }
 .progress {
-  background-color: var(--progress);
+  background-color: var(--theme-color);
   height: 2px;
   left: 0px;
   position: fixed;
@@ -44,10 +73,10 @@ div#app:empty::before {
   z-index: 999999;
 }
 .search a:hover {
-  color: var(--progress);
+  color: var(--theme-color);
 }
 .search .search-keyword {
-  color: var(--progress);
+  color: var(--theme-color);
   font-style: normal;
   font-weight: bold;
 }
@@ -58,7 +87,7 @@ body {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: #34495e;
+  color: var(--body-col);
   font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 15px;
   letter-spacing: 0;
@@ -73,7 +102,7 @@ a[disabled] {
   opacity: 0.6;
 }
 kbd {
-  border: solid 1px #ccc;
+  border: solid 1px var(--background-4);
   border-radius: 3px;
   display: inline-block;
   font-size: 12px !important;
@@ -117,11 +146,11 @@ li input[type='checkbox'] {
   transition: color 0.3s;
 }
 .app-nav a:hover {
-  color: var(--progress);
+  color: var(--theme-color);
 }
 .app-nav a.active {
-  border-bottom: 2px solid var(--progress);
-  color: var(--progress);
+  border-bottom: 2px solid var(--theme-color);
+  color: var(--theme-color);
 }
 .app-nav li {
   display: inline-block;
@@ -131,9 +160,9 @@ li input[type='checkbox'] {
   cursor: pointer;
 }
 .app-nav li ul {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-bottom-color: #ccc;
+  background-color: var(--background-1);
+  border: 1px solid var(--background-3);
+  border-bottom-color: var(--background-4);
   border-radius: 4px;
   box-sizing: border-box;
   display: none;
@@ -179,8 +208,8 @@ li input[type='checkbox'] {
           animation: octocat-wave 560ms ease-in-out;
 }
 .github-corner svg {
-  color: #fff;
-  fill: var(--progress);
+  color: var(--background-1);
+  fill: var(--theme-color);
   height: 80px;
   width: 80px;
 }
@@ -200,7 +229,7 @@ main.hidden {
   transition: all 0.3s;
 }
 .anchor span {
-  color: #34495e;
+  color: var(--body-col);
 }
 .anchor:hover {
   text-decoration: underline;
@@ -289,7 +318,7 @@ main.hidden {
   opacity: 0.4;
 }
 .sidebar-toggle span {
-  background-color: var(--progress);
+  background-color: var(--theme-color);
   display: block;
   margin-bottom: 4px;
   width: 16px;
@@ -323,11 +352,11 @@ body.sticky .sidebar-toggle {
 }
 .markdown-section hr {
   border: none;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--background-2);
   margin: 2em 0;
 }
 .markdown-section iframe {
-  border: 1px solid #eee;
+  border: 1px solid var(--background-2);
 /* fix horizontal overflow on iOS Safari */
   width: 1px;
   min-width: 100%;
@@ -341,33 +370,33 @@ body.sticky .sidebar-toggle {
   width: 100%;
 }
 .markdown-section th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--background-3);
   font-weight: bold;
   padding: 6px 13px;
 }
 .markdown-section td {
-  border: 1px solid #ddd;
+  border: 1px solid var(--background-3);
   padding: 6px 13px;
 }
 .markdown-section tr {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--background-4);
 }
 .markdown-section tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: var(--markdown-bg);
 }
 .markdown-section p.tip {
-  background-color: #f8f8f8;
+  background-color: var(--markdown-bg);
   border-bottom-right-radius: 2px;
-  border-left: 4px solid #f66;
+  border-left: 4px solid var(--markdown);
   border-top-right-radius: 2px;
   margin: 2em 0;
   padding: 12px 24px 12px 30px;
   position: relative;
 }
 .markdown-section p.tip:before {
-  background-color: #f66;
+  background-color: var(--markdown);
   border-radius: 100%;
-  color: #fff;
+  color: var(--background-1);
   content: '!';
   font-family: 'Dosis', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 14px;
@@ -381,10 +410,10 @@ body.sticky .sidebar-toggle {
   top: 14px;
 }
 .markdown-section p.tip code {
-  background-color: #efefef;
+  background-color: var(--markdown-edge);
 }
 .markdown-section p.tip em {
-  color: #34495e;
+  color: var(--body-col);
 }
 .markdown-section p.warn {
   background: rgba(66,185,131,0.1);
@@ -508,7 +537,7 @@ section.cover.show {
   display: flex;
 }
 section.cover.has-mask .mask {
-  background-color: #fff;
+  background-color: var(--background-1);
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -560,12 +589,12 @@ section.cover ul {
   padding: 0;
 }
 section.cover .cover-main > p:last-child a {
-  border-color: var(--progress);
+  border-color: var(--theme-color);
   border-radius: 2rem;
   border-style: solid;
   border-width: 1px;
   box-sizing: border-box;
-  color: var(--progress);
+  color: var(--theme-color);
   display: inline-block;
   font-size: 1.05rem;
   letter-spacing: 0.1rem;
@@ -575,8 +604,8 @@ section.cover .cover-main > p:last-child a {
   transition: all 0.15s ease;
 }
 section.cover .cover-main > p:last-child a:last-child {
-  background-color: var(--progress);
-  color: #fff;
+  background-color: var(--theme-color);
+  color: var(--background-1);
 }
 section.cover .cover-main > p:last-child a:last-child:hover {
   color: inherit;
@@ -586,25 +615,25 @@ section.cover .cover-main > p:last-child a:hover {
   color: inherit;
 }
 section.cover blockquote > p > a {
-  border-bottom: 2px solid var(--progress);
+  border-bottom: 2px solid var(--theme-color);
   transition: color 0.3s;
 }
 section.cover blockquote > p > a:hover {
-  color: var(--progress);
+  color: var(--theme-color);
 }
 body {
-  background-color: #fff;
+  background-color: var(--background-1);
 }
 /* sidebar */
 .sidebar {
-  background-color: #fff;
-  color: #364149;
+  background-color: var(--background-1);
+  color: var(--sidebar-bg);
 }
 .sidebar li {
   margin: 6px 0 6px 0;
 }
 .sidebar ul li a {
-  color: #505d6b;
+  color: var(--sidebar-ul);
   font-size: 14px;
   font-weight: normal;
   overflow: hidden;
@@ -620,7 +649,7 @@ body {
 }
 .sidebar ul li.active > a {
   border-right: 2px solid;
-  color: var(--progress);
+  color: var(--theme-color);
   font-weight: 600;
 }
 .app-sub-sidebar li::before {
@@ -634,11 +663,11 @@ body {
 .markdown-section h3,
 .markdown-section h4,
 .markdown-section strong {
-  color: #2c3e50;
+  color: var(--markdown-bold);
   font-weight: 600;
 }
 .markdown-section a {
-  color: var(--progress);
+  color: var(--theme-color);
   font-weight: 600;
 }
 .markdown-section h1 {
@@ -660,7 +689,7 @@ body {
   font-size: 1rem;
 }
 .markdown-section h6 {
-  color: #777;
+  color: var(--markdown-h);
   font-size: 1rem;
 }
 .markdown-section figure,
@@ -678,8 +707,8 @@ body {
   padding-left: 1.5rem;
 }
 .markdown-section blockquote {
-  border-left: 4px solid var(--progress);
-  color: #858585;
+  border-left: 4px solid var(--theme-color);
+  color: var(--markdown-block);
   margin: 2em 0;
   padding-left: 20px;
 }
@@ -691,7 +720,7 @@ body {
   margin: 1em 0;
 }
 .markdown-section em {
-  color: #7f8c8d;
+  color: var(--markdown-em);
 }
 .markdown-section code,
 .markdown-section pre,
@@ -700,7 +729,7 @@ body {
 }
 .markdown-section code,
 .markdown-section pre {
-  background-color: #f8f8f8;
+  background-color: var(--markdown-bg);
 }
 .markdown-section pre,
 .markdown-section output {
@@ -719,7 +748,7 @@ body {
 }
 .markdown-section code {
   border-radius: 2px;
-  color: #e96900;
+  color: var(--md-code);
   margin: 0 2px;
   padding: 3px 5px;
   white-space: pre-wrap;
@@ -734,7 +763,7 @@ body {
   word-wrap: normal;
 }
 .markdown-section pre > code {
-  color: #525252;
+  color: var(--md-pre-code);
   font-size: 0.8rem;
   padding: 2.2em 5px;
   line-height: inherit;
@@ -745,7 +774,7 @@ body {
 }
 .markdown-section output {
   padding: 1.7rem 1.4rem;
-  border: 1px dotted #ccc;
+  border: 1px dotted var(--background-4);
 }
 .markdown-section output > :first-child {
   margin-top: 0;
@@ -761,7 +790,7 @@ body {
 }
 .markdown-section pre::after,
 .markdown-section output::after {
-  color: #ccc;
+  color: var(--background-4);
   font-size: 0.6rem;
   font-weight: 600;
   height: 15px;
@@ -781,63 +810,63 @@ body {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #8e908c;
+  color: var(--token-cdata);
 }
 .token.namespace {
   opacity: 0.7;
 }
 .token.boolean,
 .token.number {
-  color: #c76b29;
+  color: var(--token-number);
 }
 .token.punctuation {
-  color: #525252;
+  color: var(--token-punctuation);
 }
 .token.property {
-  color: #c08b30;
+  color: var(--token-property);
 }
 .token.tag {
-  color: #2973b7;
+  color: var(--token-tag);
 }
 .token.string {
-  color: var(--progress);
+  color: var(--theme-color);
 }
 .token.selector {
-  color: #6679cc;
+  color: var(--token-selector);
 }
 .token.attr-name {
-  color: #2973b7;
+  color: var(--token-attr-name);
 }
 .token.entity,
 .token.url,
 .language-css .token.string,
 .style .token.string {
-  color: #22a2c9;
+  color: var(--token-string);
 }
 .token.attr-value,
 .token.control,
 .token.directive,
 .token.unit {
-  color: var(--progress);
+  color: var(--theme-color);
 }
 .token.keyword,
 .token.function {
-  color: #e96900;
+  color: var(--md-code);
 }
 .token.statement,
 .token.regex,
 .token.atrule {
-  color: #22a2c9;
+  color: var(--token-atrule);
 }
 .token.placeholder,
 .token.variable {
-  color: #3d8fd1;
+  color: var(--token-variable);
 }
 .token.deleted {
   text-decoration: line-through;
 }
 .token.inserted {
-  border-bottom: 1px dotted #202746;
+  border-bottom: 1px dotted var(--token-inserted);
   text-decoration: none;
 }
 .token.italic {
@@ -848,7 +877,7 @@ body {
   font-weight: bold;
 }
 .token.important {
-  color: #c94922;
+  color: var(--token-important);
 }
 .token.entity {
   cursor: help;

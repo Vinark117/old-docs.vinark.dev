@@ -1,6 +1,6 @@
 
 
-* <t style="font-size:1vw; font-weight:bold">Docs.Vinark.Dev</t>
+* <t style="font-size:1vw; font-weight:bold">Vinark Docs</t>
 * [HOME](./)
 
 <br>
