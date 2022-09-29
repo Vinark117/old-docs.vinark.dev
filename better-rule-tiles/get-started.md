@@ -17,3 +17,5 @@ After you've created a "Better rule tile container" asset, you can open the edit
 If you have multiple container assets, each asset will open in it's own editor window. If the asset is already open in an editor, opening the asset will bring that editor window in front.
 
 Deleting a container asset will close the editor window editing that asset.
+
+# The Better Rule Tile editor
