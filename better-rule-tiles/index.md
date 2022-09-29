@@ -14,7 +14,12 @@ It's main features include:
 - Quickly create new tiles if you've already set one up prior.
 - Supports square, isometric and hexagonal grids as well.
 
-## Development
+Try out the demo or buy the packgage on [itch.io](https://vinarkgames.itch.io/better-rule-tiles-for-unity).
+<!--or the [Unity Asset Store]()-->
+
+Get Started with the tool on the [get started](./get-started) page.
+
+# Development
 
 Follow the state of the project's development on it's [trello page](https://trello.com/b/pLpR4pdV/better-rule-tile).<br>
 Found a bug? You can report it [here](https://itch.io/t/2381185/bug-reports).<br>
