@@ -1,9 +1,9 @@
-* # [**Docs.Vinark.Dev**](/#/./)  <!-- {docsify-ignore} -->
+* # **Docs.Vinark.Dev**  <!-- {docsify-ignore} -->
 * [HOME](./)
 
 <br>
 
-* # [**Better Rule Tiles**](/#/./better-rule-tiles/index) <!-- {docsify-ignore} -->
+* # **Better Rule Tiles** <!-- {docsify-ignore} -->
 * [About](./better-rule-tiles/index)
 * [Get Started](./better-rule-tiles/get-started)
 * [User Interface](./better-rule-tiles/user-interface)
