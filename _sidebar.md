@@ -1,12 +1,13 @@
-* # [**Docs.Vinark.Dev**](https://docs.vinark.dev/#/./)  <!-- {docsify-ignore} -->
+* # [**Docs.Vinark.Dev**](/#/./)  <!-- {docsify-ignore} -->
 * [HOME](./)
 
 <br>
 
-* # [**Better Rule Tiles**](https://docs.vinark.dev/#/./better-rule-tiles/index) <!-- {docsify-ignore} -->
-* [Home Page](./better-rule-tiles/index)
+* # [**Better Rule Tiles**](/#/./better-rule-tiles/index) <!-- {docsify-ignore} -->
+* [About](./better-rule-tiles/index)
 * [Get Started](./better-rule-tiles/get-started)
 * [User Interface](./better-rule-tiles/user-interface)
+* [Changelog](./better-rule-tiles/changelog)
 
 <br>
 
