@@ -57,11 +57,19 @@ There are even more settings in the **other settings** dropdown, which you can o
 - **Grid cell offset** - You can change this option if your sprites don't line up with the grid lines.
 
 And finally, under the **export options** you can change settings regarding how should the final rule tiles be generated:
-- **Grid tyle** - The shape of the [**grid**](./better-rule-tiles/get-started?id=the-grid).
+- **Grid tyle** - The shape of the [grid](./better-rule-tiles/get-started?id=the-grid).
 - **Add missing rules** - When this option is enabled, the missing rules in **tile variations** will be fill in from the **parent tile**.
 
 > Note, the ruler only shows the actual coordinates when the grid is set to square, in other grids, it only serves as a way to orient yourself on the grid.
 
 ## The tile drawer
+
+This window allows you to select and create tiles, and also shows you a preview of the currently selected tile or sprite. Besides the tiles you create, there are a few default **rules** in this drawer you can use to spicify how tiles should behave. These default tiles/rules are:
+- **Delete** - Basically the eraser brush of the **tile layer**, you can use this tile with the **brush tool** to delete tiles on the grid.
+- **Empty** - When this tile is placed, the rule in this place will be true when there's no tile placed there.
+- **Not same** - When this tile is placed, the rule in this place will be true when it's not the same tile as the one we're comparing it to.
+- **Any** - When this tile is placed, the rule in this place will be true when there's any tile placed there.
+
+For a more detailed explanation on how rules work go to the [rules](./better-rule-tiles/rules) page.
 
 ## The toolbar

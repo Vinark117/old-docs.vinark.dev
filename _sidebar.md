@@ -8,7 +8,8 @@
 * <t style="font-size:1vw; font-weight:bold">Better Rule Tiles</t>
 * [About](./better-rule-tiles/index)
 * [Get Started](./better-rule-tiles/get-started)
-* [Creating tiles](./better-rule-tiles/tile-creation)
+* [Creating Tiles](./better-rule-tiles/tile-creation)
+* [About Rules](./better-rule-tiles/rules)
 * [Changelog](./better-rule-tiles/changelog)
 
 <!--
