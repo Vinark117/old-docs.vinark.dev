@@ -15,10 +15,10 @@ After you've created a "Better rule tile container" asset, you can open the edit
 
 ![Open asset](./images/open-asset.png)
 
-> *Note that you shouldn't edit this asset directly, but only through the editor to avoid errors. Only edit the asset directly for debugging purposes!*
-
 If you have multiple container assets, each asset will open in it's own editor window. If the asset is already open in an editor, opening the asset will bring that editor window in front.<br>
 Deleting a container asset will close the editor window editing that asset.
+
+> *Note that you shouldn't edit this asset directly, but only through the editor to avoid errors. Only edit the asset directly for debugging purposes!*
 
 <br>
 
@@ -39,3 +39,29 @@ There are 3 different types of grids you can work in: **square**, **isometric** 
 ![Grids](./images/grids.png)
 
 > *Note, it's best to change the grid type before you start working on anything, to avoid displacement of the grid due to the different coordinate systems.*
+
+## The editor settings
+
+There are a few settings you can tweak to help you in the editor:
+- **Highlight modified cells** - When this option is enabled it highlights grid cells with a flashing outline, which have been modified in the **inspector window**.
+- **Show ruler** - When enabled, it shows a ruler on the bottom and left side of the window, to help orient yourself on the grid.
+- **Lock windows** - If this option is enabled all of the floating windows will be locked to either corners of the editor. If you disable this option you can freely drag the floating windows anywhere inside the editor. If the windows disapper after resizing the editor, you can enable this option to bring those windows back.
+- **Hide sprites** - When this option is enabled, it will hide the **sprite layer**. This option can be used to check if there's a tile under a sprite or not.
+
+There are even more settings in the **other settings** dropdown, which you can open by clicking the corresponding button. This dropdown has a few settings inside:
+- **Drawer size** - Determines the size of the **tile drawer**.
+- **Current zoom** - Here you can manually enter the current zoom amount of the grid. The larger the zoom amount the larger the grid cells appear. You can also **use your mouse scrool wheel to zoom in and out**, so this option was mostly intended to input more specific values.
+- **Render small grid** - If this option is disabled, zooming far out will cause the grid lines to disappear. This option is most useful when working in a **hexagonal grid**, as the grid is not all straight lines, rendering a large small grid could be quite resource intensive.
+- **Zoom treshold** - This value determines when should the grid disapper when the **render small grid** option is disabled. The grid will stop rendering if the current zoom value is less than the zoom treshold.
+- **Grid size** - Determines how large should the grid be when the **current zoom** value is one.
+- **Grid cell offset** - You can change this option if your sprites don't line up with the grid lines.
+
+And finally, under the **export options** you can change settings regarding how should the final rule tiles be generated:
+- **Grid tyle** - The shape of the [**grid**](./better-rule-tiles/get-started?id=the-grid).
+- **Add missing rules** - When this option is enabled, the missing rules in **tile variations** will be fill in from the **parent tile**.
+
+> Note, the ruler only shows the actual coordinates when the grid is set to square, in other grids, it only serves as a way to orient yourself on the grid.
+
+## The tile drawer
+
+## The toolbar
