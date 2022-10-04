@@ -73,3 +73,7 @@ This window allows you to select and create tiles, and also shows you a preview 
 For a more detailed explanation on how rules work go to the [rules](./better-rule-tiles/rules) page.
 
 ## The toolbar
+
+-
+-
+-

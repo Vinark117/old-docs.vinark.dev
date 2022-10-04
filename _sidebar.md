@@ -10,6 +10,7 @@
 * [Get Started](./better-rule-tiles/get-started)
 * [Creating Tiles](./better-rule-tiles/tile-creation)
 * [About Rules](./better-rule-tiles/rules)
+* [C# Reference](./better-rule-tiles/cs-reference)
 * [Changelog](./better-rule-tiles/changelog)
 
 <!--

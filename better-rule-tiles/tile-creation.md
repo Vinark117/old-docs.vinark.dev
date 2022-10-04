@@ -11,9 +11,31 @@ These tiles are basically the equivalent to creating a rule tile asset in the pr
 
 When selecting one of the tiles that you created in the drawer, an **inspector window** will appear in the bottom right corner of the editor, here you can change certain properties of the tile. Some settings are the same as in a regular rule tile, like the default sprite, collider or gameobject, but some options are more specific to these better rule tiles, and enable you to do things that the default rule tiles cannot.
 
+> Note that you need to press the **apply changes** button to update the properties of the tiles, but deselecting the tile or selecting an another one will also save the changes.
+
 ## Editor options
 
+In the editor options you can change how will the tile look in the editor:
+- The **tile name** option will determine how your tile will be called in the editor, and in the project window after you've generated the tiles.
+- The **tile image** option will determine how your tile will look after you've placed it down in the editor grid. 
+  - This tile needs to be a separate image file, sliced sprites are not supported. 
+  - This image has no effect on how the tile preview will look after you've generated the tiles, that is determined by the [default sprite](./better-rule-tiles/tile-creation?id=rule-tile-options) option
+  - If you don't want to specify an image for the preview, you can set a preview in the [auto texture](./better-rule-tiles/tile-creation?id=auto-texture) options.
+
 ## Auto texture
+
+The auto texture option lets you to specify a preview image without having to make your own image file. You can specify the color, the shape and the orientation of the image, so you can create a preview image for all of your tile types.
+
+There are multiple shapes you can choose from
+- Square
+- 1x1 Slope
+- 1x2 Slope bottom and top
+- Diamond
+- Isometric
+- Hexagon pointed and flat topped
+- Circle
+
+You can also flip these textures in both orientations if you want a flipped variant, for example for a slope.
 
 ## Rule tile options
 
