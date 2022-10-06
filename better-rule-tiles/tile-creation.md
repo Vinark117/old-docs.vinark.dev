@@ -45,7 +45,9 @@ You can also flip these textures in both orientations if you want a flipped vari
 
 # Adding sprites to the grid
 
-To create [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) you need to add sprites to the grid first
+To create [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) you need to add sprites to the grid first. To add sprites, you just simply **drag and drop** the sprites from the project window into the editor. You can select one or multiple sprites, but only if they're part of the same image file (sliced image). Dragging in multiple image files together is not supported, you have to do it one by one.
+
+![Drag & Drop](./images/drag-drop.png)
 
 # Setting tiling rules
 

@@ -76,16 +76,16 @@ For a more detailed explanation on how rules work go to the [rules](./better-rul
 
 It is located in the top left corner of the editor, the toolbar contains all of the brushes, tools and actions you can use to edit tiles on the grid. The toolbar has 3 different sections: the **toolbar** itself, where you can pick the tools to edit the grid; **actions** like undo, redo, copy and paste; and **special actions**
 
-### Toolbar:
+### Toolbar
 
-- **Brush (B)** - with the brush tool you can draw on the grid with the currently **selected tile/sprite**. You can select a tile in the tile drawer, or you can pick a sprite from the grid using ther **picker tool**. If you don't have any sprites on the grid you need to [add sprites]() to the grid first. 
+- **Brush (B)** - with the brush tool you can draw on the grid with the currently **selected tile/sprite**. You can select a tile in the tile drawer, or you can pick a sprite from the grid using ther **picker tool**. If you don't have any sprites on the grid you need to [add sprites](./better-rule-tiles/tile-creation?id=adding-sprites-to-the-grid) to the grid first. 
 - **Picker tool (I)** - with this tool you can pick a sprite or a tile to set as the currently **selected tile/sprite**. If there's a sprite over the tile, the sprite is gonna get selected, of you click on a tile without a sprite it will select the tile.
 - **Eraser (F)** - with the eraser you can delete **sprites** from the grid by clicking on them or dragging over them while the tool is selected. With this tool you can only delete sprites, to delete tiles you need to use the **brush tool** together with the **delete tile**.
 - **Move tool (M)** - with this tool you can move the tiles  around the grid that you've selected with the **selection tool**.
 - **Selection tool (S)** - with this tool you can select one or multiple tiles. This tool is used together with other tools to edit a certain section in the grid.
 - **Tile inspector (E)** - using this tool you can change how individual [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) behave. You can read more about going to [here](./better-rule-tiles/tile-creation?id=individual-tiling-rule-settings).
 
-### Actions:
+### Actions
 
 - **Undo (Ctrl + Z)** - Undoes your last action.
 - **Redo (Ctrl + Y)** - Redoes your last action.
@@ -93,7 +93,7 @@ It is located in the top left corner of the editor, the toolbar contains all of 
 - **Copy (Ctrl + C)** - Copies ther **currently selected area**.
 - **Paste (Ctrl + V)** - Pastes the copied selection in. Pressing paste will show a preview of the area which you can move around. After you're ready to paste the selection in you can press **escape** or switch tools to confirm the action. You can press **delete** to cancel the action.
 
-### Special tools:
+### Special tools
 
 - **Replace selection** - this tool enables you to **replace tiles and sprites** to different ones in the **currently selected area**. When replacing tiles, it just finds every x type of tile and replaces it with the tile you specified. When replacing sprites, it looks at the file name, finds the section which matches with the string you specified, and replaces that section to the new string. I.e. 
 
