@@ -76,6 +76,8 @@ For a more detailed explanation on how rules work go to the [rules](./better-rul
 
 It is located in the top left corner of the editor, the toolbar contains all of the brushes, tools and actions you can use to edit tiles on the grid. The toolbar has 3 different sections: the **toolbar** itself, where you can pick the tools to edit the grid; **actions** like undo, redo, copy and paste; and **special actions**
 
+![Toolbar](./images/toolbar.png)
+
 ### Toolbar
 
 - **Brush (B)** - with the brush tool you can draw on the grid with the currently **selected tile/sprite**. You can select a tile in the tile drawer, or you can pick a sprite from the grid using ther **picker tool**. If you don't have any sprites on the grid you need to [add sprites](./better-rule-tiles/tile-creation?id=adding-sprites-to-the-grid) to the grid first. 

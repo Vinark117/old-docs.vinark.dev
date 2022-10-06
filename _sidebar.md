@@ -5,7 +5,7 @@
 
 <br>
 
-* <t style="font-size:24px; font-weight:bold">Better Rule Tiles</t>
+* <t style="font-size:18px; font-weight:bold">Better Rule Tiles</t>
 * [About](./better-rule-tiles/index)
 * [Get Started](./better-rule-tiles/get-started)
 * [Creating Tiles](./better-rule-tiles/tile-creation)
