@@ -43,10 +43,14 @@ You can also flip these textures in both orientations if you want a flipped vari
 
 ## Custom properties
 
-# Setting tile rules
+# Setting tiling rules
 
 Setting rules is similar to setting them in the default rule tile, but instead of individually clicking each grid cell to cycle between the options, here you can just select the option than draw it on the grid. This way you can create rules way more faster than regular rule tiles. To place the rule ***"this"*** (which in a regular rule tile is the green arrow), you just need to draw the same tile next to one that has a sprite assigned, and if you want the rule ***"not this"*** (the red cross on the regular rule tile), you just draw with the tile **not same**. And to ignore the tile you just don't place anything there.
 
 ![Grid To Rules](./images/grid-to-rules.png)
 
 To find out more about the possibilities and get a more detailed explanation on how rules work you can go [here](./better-rule-tiles/rules).
+
+# Individual tiling rule settings
+
+Using the [tile inspector]() tool you

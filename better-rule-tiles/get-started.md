@@ -74,6 +74,25 @@ For a more detailed explanation on how rules work go to the [rules](./better-rul
 
 ## The toolbar
 
--
--
--
+It is located in the top left corner of the editor, the toolbar contains all of the brushes, tools and actions you can use to edit tiles on the grid. The toolbar has 3 different sections: the **toolbar** itself, where you can pick the tools to edit the grid; **actions** like undo, redo, copy and paste; and **special actions**
+
+### Toolbar:
+
+- **Paint brush** - 
+- **Picker tool** - 
+- **Eraser** - 
+- **Move tool** - 
+- **Selection tool** - 
+- **Tile inspector** - 
+
+### Actions:
+
+- **Undo** - 
+- **Redo** - 
+- **Delete selection** - 
+- **Copy** - 
+- **Paste** - 
+
+### Special actions:
+
+- **Replace selection** - 
