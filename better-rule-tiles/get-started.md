@@ -78,21 +78,31 @@ It is located in the top left corner of the editor, the toolbar contains all of 
 
 ### Toolbar:
 
-- **Paint brush** - 
-- **Picker tool** - 
-- **Eraser** - 
-- **Move tool** - 
-- **Selection tool** - 
-- **Tile inspector** - 
+- **Brush (B)** - with the brush tool you can draw on the grid with the currently **selected tile/sprite**. You can select a tile in the tile drawer, or you can pick a sprite from the grid using ther **picker tool**. If you don't have any sprites on the grid you need to [add sprites]() to the grid first. 
+- **Picker tool (I)** - with this tool you can pick a sprite or a tile to set as the currently **selected tile/sprite**. If there's a sprite over the tile, the sprite is gonna get selected, of you click on a tile without a sprite it will select the tile.
+- **Eraser (F)** - with the eraser you can delete **sprites** from the grid by clicking on them or dragging over them while the tool is selected. With this tool you can only delete sprites, to delete tiles you need to use the **brush tool** together with the **delete tile**.
+- **Move tool (M)** - with this tool you can move the tiles  around the grid that you've selected with the **selection tool**.
+- **Selection tool (S)** - with this tool you can select one or multiple tiles. This tool is used together with other tools to edit a certain section in the grid.
+- **Tile inspector (E)** - using this tool you can change how individual [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) behave. You can read more about going to [here](./better-rule-tiles/tile-creation?id=individual-tiling-rule-settings).
 
 ### Actions:
 
-- **Undo** - 
-- **Redo** - 
-- **Delete selection** - 
-- **Copy** - 
-- **Paste** - 
+- **Undo (Ctrl + Z)** - Undoes your last action.
+- **Redo (Ctrl + Y)** - Redoes your last action.
+- **Delete selection (Delete)** - Deletes the **currently selected area**.
+- **Copy (Ctrl + C)** - Copies ther **currently selected area**.
+- **Paste (Ctrl + V)** - Pastes the copied selection in. Pressing paste will show a preview of the area which you can move around. After you're ready to paste the selection in you can press **escape** or switch tools to confirm the action. You can press **delete** to cancel the action.
 
-### Special actions:
+### Special tools:
 
-- **Replace selection** - 
+- **Replace selection** - this tool enables you to **replace tiles and sprites** to different ones in the **currently selected area**. When replacing tiles, it just finds every x type of tile and replaces it with the tile you specified. When replacing sprites, it looks at the file name, finds the section which matches with the string you specified, and replaces that section to the new string. I.e. 
+
+    ```
+    Replace from = "Green"
+    Replace to = "Purple"
+    File = "Green_Grass" => "Purple_Grass"
+    ```
+    A matching file will be searched in the asset database, and if the tool found a matching file it will replace it. If there's no matching tile nothing will happen.
+
+    > Note that this string is case sensitive! "Green" != "green"
+
