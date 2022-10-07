@@ -39,9 +39,22 @@ You can also flip these textures in both orientations if you want a flipped vari
 
 ## Rule tile options
 
+These options are the same as on a default rule tile:
+- **Default sprite** - when no rules match the certain scenario, this sprite will be used instead.
+- **Default collider** - the default collider of the tile.
+- **Default gameobject** - the default gameobject of the tile.
+
 ## Unique tiles and tile variations
 
+TBD
+
 ## Custom properties
+
+If you need to, you can add **custom values and properties** to tiles. For example let's say you have different tiles you can walk on, you could specify a *walking speed multiplier* property, than in your game you could read that value in script to change the walking speed accordingly. You can set *int*, *float*, *double*, *char*, *string* and *bool* type properties. You can set a key and a value to it, using the key you can get the value of the property. 
+
+![Custom properties](./images/custom-properties.png)
+
+To read more about the scripting part of this feature, go to the [c# reference](./better-rule-tiles/cs-reference).
 
 # Adding sprites to the grid
 
@@ -59,4 +72,10 @@ To find out more about the possibilities and get a more detailed explanation on 
 
 # Individual tiling rule settings
 
-Using the [tile inspector](./better-rule-tiles/get-started?id=toolbar) tool you can change how 
+Using the [tile inspector](./better-rule-tiles/get-started?id=toolbar) tool you can change how each rule behaves. When clicking on a tile while the [tile inspector](./better-rule-tiles/get-started?id=toolbar) tool is selected, the **inspector window** will show the info of the selected grid cell. In this window you can change everything you can in the base **tiling rules**. You can change what neighbors to check for, you can set the sprite to be random or animated, you can change the collider type and change the attached gameobject.
+
+![Tiling rule options](./images/tiling-rules.png)
+
+Some differences between the default and the editor tiling rules:
+- In the editor settings, the neighbor positions only determines if that place is gonna get checked when generating the tile or not. You can easily specify a larger area by selecting an area around the tile than clicking the **add selection** button, this option dynamically enables the positions relative to the tile. You can reset the positions by clicking the reset button. 
+- In the output sprites there's a toggle to **include default sprite**. When using a random or animated it ignores the default tile and only adds the tiles in the array, enabling this option will also add the default tile to the front of the array.
