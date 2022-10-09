@@ -1,6 +1,6 @@
 #  <!-- {docsify-ignore} -->
 
-# A quick introduction to rule tile basics
+# Introduction to rule tiles
 
 Rule tiles in unity are a better way to paint tiles to a grid. When using just regular tiles you need to place every edge and corner manually, which can be really time consuming. Rule tiles adapt to their surroundings, and set the edges/corners according to the rules you specified.
 
