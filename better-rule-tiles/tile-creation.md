@@ -46,7 +46,11 @@ These options are the same as on a default rule tile:
 
 ## Unique tiles and tile variations
 
-TBD
+The editor allows you to set tiles to **unique** or **variations of another tile**. **Unique tiles** are the default ones, they connect to themselves when the rule is set to *this*, and they ignore all other tiles unless set to a rule like *any tile* or *empty*. If a tile is not unique, it is a **variation of another tile**, this tile being the **parent tile**, the tile which we specified in the option ***"Variation of"***. The **parent tile** connects to these tiles not only when the rule specifies, but as if it was the same tile as the parent. But these **variation tiles** do not connect to the **parent tiles** by default, to if the user wants them not to connect they can make it happen. If you want the **variation tiles** to connect to the parent in every case, not just the ones you specified, you can enable the **add missing rules** option in the [export settings](./better-rule-tiles/get-started?id=the-editor-settings). This option will find all the rules which are missing, and add them from the parent tile.
+
+![Variations](./images/variations.png)
+
+There's also an option to **add variation tiles manually**. The tile you're adding these tiles to will connect to all of the tiles you added, so you don't have to create separate rules if you want two or more tiles to connect to each other.
 
 ## Custom properties
 

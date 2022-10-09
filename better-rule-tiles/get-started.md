@@ -58,7 +58,7 @@ There are even more settings in the **other settings** dropdown, which you can o
 
 And finally, under the **export options** you can change settings regarding how should the final rule tiles be generated:
 - **Grid tyle** - The shape of the [grid](./better-rule-tiles/get-started?id=the-grid).
-- **Add missing rules** - When this option is enabled, the missing rules in **tile variations** will be fill in from the **parent tile**.
+- **Add missing rules** - When this option is enabled, the missing rules in [tile variations](./better-rule-tiles/tile-creation?id=unique-tiles-and-tile-variations) will be filled in from the [parent tile](./better-rule-tiles/tile-creation?id=unique-tiles-and-tile-variations).
 
 > Note, the ruler only shows the actual coordinates when the grid is set to square, in other grids, it only serves as a way to orient yourself on the grid.
 
