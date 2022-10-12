@@ -17,3 +17,14 @@ When placing down the tile it will check all **tiling rules** from top to bottom
 For more information about rule tiles, you can visit the official article on [how to use rule tiles](https://learn.unity.com/tutorial/using-rule-tiles).
 
 # Regular vs Better rule tiles
+
+Rule tiles are a good way to speed up your workflow with tiles, **but it lacks a few features** which would be useful in quite a lot of scenarios:
+
+- Rule tiles can only interact with themselves, and not with each other. So if you want specific interactions between two tiles it's not possible.
+- You can only check if the neighbor is the same tile or not, you cannot check for empty spaces or other tiles.
+- You can also not set custom variables or properties for the tile.
+
+Of course, all these problems can be fixed by creating a **custom scripted rule tile**, but it's not the simplest and most straight forward thing to achieve. **Better rule tiles** can fix all of these problems, and also add a number of quality of life features too:
+
+- 
+- 
