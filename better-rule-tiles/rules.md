@@ -33,7 +33,7 @@ Of course, all these problems can be fixed by creating a **custom scripted rule 
 - Sorts the order of rules automatically,
 - And more.
 
-# Creating basic tiling rules in the editor
+# Creating basic tiling rules
 
 After you've [created a tile](./better-rule-tiles/tile-creation?id=creating-a-tile), you can start making the rules.
 
