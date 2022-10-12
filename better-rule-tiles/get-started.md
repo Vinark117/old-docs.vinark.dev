@@ -45,11 +45,10 @@ There are 3 different types of grids you can work in: **square**, **isometric** 
 There are a few settings you can tweak to help you in the editor:
 - **Highlight modified cells** - When this option is enabled it highlights grid cells with a flashing outline, which have been modified in the **inspector window**.
 - **Show ruler** - When enabled, it shows a ruler on the bottom and left side of the window, to help orient yourself on the grid.
-
-    > Note, the ruler only shows the actual coordinates when the grid is set to square, in other grids, it only serves as a way to orient yourself on the grid.
-
 - **Lock windows** - If this option is enabled all of the floating windows will be locked to either corners of the editor. If you disable this option you can freely drag the floating windows anywhere inside the editor. If the windows disapper after resizing the editor, you can enable this option to bring those windows back.
 - **Hide sprites** - When this option is enabled, it will hide the **sprite layer**. This option can be used to check if there's a tile under a sprite or not.
+
+> Note, the ruler only shows the actual coordinates when the grid is set to square, in other grids, it only serves as a way to orient yourself on the grid.
 
 There are even more settings in the **other settings** dropdown, which you can open by clicking the corresponding button. This dropdown has a few settings inside:
 - **Drawer size** - Determines the size of the **tile drawer**.
@@ -64,7 +63,7 @@ And finally, under the **export options** you can change settings regarding how 
 - **Add missing rules** - When this option is enabled, the missing rules in [tile variations](./better-rule-tiles/tile-creation?id=unique-tiles-and-tile-variations) will be filled in from the [parent tile](./better-rule-tiles/tile-creation?id=unique-tiles-and-tile-variations).
 - **Simplify similar rules** - If this option is enabled, when generating the tiles it checks which tiles which have the same sprite, finds a common pattern between them and replaces them with one rule that applies for all. For example:
 
-   ![Simplify rules](./images/simplify-rules.png)
+![Simplify rules](./images/simplify-rules.png)
 
 ## The tile drawer
 
