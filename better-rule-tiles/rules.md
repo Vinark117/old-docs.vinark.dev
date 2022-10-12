@@ -26,5 +26,40 @@ Rule tiles are a good way to speed up your workflow with tiles, **but it lacks a
 
 Of course, all these problems can be fixed by creating a **custom scripted rule tile**, but it's not the simplest and most straight forward thing to achieve. **Better rule tiles** can fix all of these problems, and also add a number of quality of life features too:
 
-- 
-- 
+- Place tiles and sprites onto a single grid, eliminating the need to cycle through all of the rule tile options and saving a lot of time,
+- Save all the tiles into a single asset to keep things clean and organized,
+- Adds more rules you can use,
+- Adds the ability for tiles to interact with each other,
+- Sorts the order of rules automatically,
+- And more.
+
+# Creating basic tiling rules in the editor
+
+After you've [created a tile](./better-rule-tiles/tile-creation?id=creating-a-tile), you can start making the rules.
+
+To create a rule you just need to place a tile down on the grid with the [brush tool](./better-rule-tiles/get-started?id=toolbar), than [place a sprite](./better-rule-tiles/tile-creation?id=adding-sprites-to-the-grid) on top of it. If you don't place anything next to it, it'll be just a tile with no neighboring rules.
+
+![Blank rule](./images/blank-rule.png)
+
+If you want to set the rule to **the rule "*this*"**, you need to place the same tile to that place.
+
+![This rule](./images/rule-this.png)
+
+If you want to **set the rule to "*not this*"**, you need to place the **not same** tile from the [tile drawer](./better-rule-tiles/get-started?id=the-tile-drawer) to the grid.
+
+![Not same rule](./images/rule-not-same.png)
+
+This is only a single tile, but the advantage of this grid system is that you can just place tiles next to each other to save space, and to lay out the tiles in a more organized way.
+
+![Multiple rules](./images/multiple-rules.png)
+
+There's a slight problem with this setup tho. If you specify the tiles like this, they will only work in this specific scenario. If you want them to work in every scenario, you have to either:
+- Separate them so they don't conflict with each other.
+- Use the [tile inspector tool](./better-rule-tiles/get-started?id=toolbar) to change the [neighbor positions](./better-rule-tiles/tile-creation?id=individual-tiling-rule-settings).
+- Or if you have rules for a few different scenarios, you can enable the **simplify similar rules** option in the [export settings](./better-rule-tiles/get-started?id=the-editor-settings), so it will create a generic **tiling rule** that matches all of the scenarios.
+
+With these you can now create your first rule tile in the **better rule tile editor** that would behave just like a **regular rule tile**, with the only defference that it took the fraction of the time to create it.
+
+![Sample tileset](./images/basic-tileset.png)
+
+# Interactions between tiles
