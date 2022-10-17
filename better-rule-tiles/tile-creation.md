@@ -64,7 +64,7 @@ To read more about the scripting part of this feature, go to the [c# reference](
 
 To create [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) you need to add sprites to the grid first. To add sprites, you just simply **drag and drop** the sprites from the project window into the editor. You can select one or multiple sprites, but only if they're part of the same image file (sliced image). Dragging in multiple image files together is not supported, you have to do it one by one.
 
-![Drag & Drop](./images/drag-drop.png)
+![Drag & Drop](./images/drag-drop.gif)
 
 After you've added the sprites to the grid, you can use the [picker tool](./better-rule-tiles/get-started?id=toolbar) to select a sprite and the [brush tool](./better-rule-tiles/get-started?id=toolbar) to paint with it.
 

@@ -86,11 +86,25 @@ It is located in the top left corner of the editor, the toolbar contains all of 
 ### Toolbar
 
 - **Brush (B)** - with the brush tool you can draw on the grid with the currently **selected tile/sprite**. You can select a tile in the tile drawer, or you can pick a sprite from the grid using ther **picker tool**. If you don't have any sprites on the grid you need to [add sprites](./better-rule-tiles/tile-creation?id=adding-sprites-to-the-grid) to the grid first. 
+
+![Brush tool](./images/brush-tool.gif)
+
 - **Picker tool (I)** - with this tool you can pick a sprite or a tile to set as the currently **selected tile/sprite**. If there's a sprite over the tile, the sprite is gonna get selected, of you click on a tile without a sprite it will select the tile.
+
+![Picker tool](./images/color-picker.gif)
+
 - **Eraser (F)** - with the eraser you can delete **sprites** from the grid by clicking on them or dragging over them while the tool is selected. With this tool you can only delete sprites, to delete tiles you need to use the **brush tool** together with the **delete tile**.
+
+![Eraser tool](./images/eraser-tool.gif)
+
 - **Move tool (M)** - with this tool you can move the tiles  around the grid that you've selected with the **selection tool**.
 - **Selection tool (S)** - with this tool you can select one or multiple tiles. This tool is used together with other tools to edit a certain section in the grid.
-- **Tile inspector (E)** - using this tool you can change how individual [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) behave. You can read more about going to [here](./better-rule-tiles/tile-creation?id=individual-tiling-rule-settings).
+
+![Move selection](./images/select-move.gif)
+
+- **Tile inspector (E)** - using this tool you can change how individual [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rules) behave. You can read more about the **tile inspector** by going [here](./better-rule-tiles/tile-creation?id=individual-tiling-rule-settings).
+
+![Inspector](./images/inspector.gif)
 
 ### Actions
 
@@ -99,6 +113,8 @@ It is located in the top left corner of the editor, the toolbar contains all of 
 - **Delete selection (Delete)** - Deletes the **currently selected area**.
 - **Copy (Ctrl + C)** - Copies ther **currently selected area**.
 - **Paste (Ctrl + V)** - Pastes the copied selection in. Pressing paste will show a preview of the area which you can move around. After you're ready to paste the selection in you can press **escape** or switch tools to confirm the action. You can press **delete** to cancel the action.
+
+![Actions](./images/actions.gif)
 
 ### Special tools
 
@@ -109,7 +125,11 @@ It is located in the top left corner of the editor, the toolbar contains all of 
     Replace to = "Purple"
     File = "Green_Grass" => "Purple_Grass"
     ```
+    
     A matching file will be searched in the asset database, and if the tool found a matching file it will replace it. If there's no matching tile nothing will happen.
 
-    > Note that this string is case sensitive! "Green" != "green"
+> Note that this string is case sensitive! "Green" != "green"
 
+> Note that the images have to be in the same folder!
+
+![Replace selection](./images/replace-selection.gif)
