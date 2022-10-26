@@ -6,7 +6,7 @@
 
 ## Chapter: "Intro"
 
-If you've ever used rule tiles in Unity you know how time consuming and tedious can it be just to convert a single tileset into a rule tile. And sometimes it doesn't even have all the features you'd need for your game, so you just end up spending even more time working around those problems. Well... don't you worry, because I have the perfect solution for it!
+We've all been there. Spending numerous hours clicking tiny boxes so we can save some time later down on the line. If you've ever used rule tiles in Unity you know how time consuming and tedious can it be just to convert a single tileset into a rule tile. And sometimes it doesn't even have all the features you'd need for your game, so you just end up spending even more time working around those problems. Well... don't you worry, because I have the perfect solution for it!
 
 I call it **"Better rule tiles"**, it's a package that adds a tilemap style editor that lets you create rule tiles in it. Using this tool you can create rule tiles significantly faster than doing it the regular way, and there are also a number of features which are not present in the default editor. For example this tool lets you create interactions between tiles, and adds more default rules to choose from.
 
