@@ -2,17 +2,17 @@
 
 # Custom properties
 
-## Namespace <!-- {docsify-ignore} -->
+### Namespace <!-- {docsify-ignore} -->
 ```cs 
 using VinTools.BetterRuleTiles; 
 ```
 
-## Class <!-- {docsify-ignore} -->
+### Class <!-- {docsify-ignore} -->
 ```cs
 VinTools.BetterRuleTiles.BetterRuleTile
 ```
 
-## Methods <!-- {docsify-ignore} -->
+### Methods <!-- {docsify-ignore} -->
 
 ```cs
 public int GetInt(string key, int defaultValue = default);
@@ -29,7 +29,7 @@ Each method returns the corresponding type based on the key specified. If the pr
 
 You will need an object reference to the tile in order to call the method.
 
-## Example script
+### Example script
 
 ```cs
 //This script finds the tile of the specified tilemap where your mouse cursor is
