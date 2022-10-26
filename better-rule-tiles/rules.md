@@ -63,3 +63,5 @@ With these you can now create your first rule tile in the **better rule tile edi
 ![Sample tileset](./images/basic-tileset.png)
 
 # Interactions between tiles
+
+To create interactions between the tiles you just simply place that tile next to an another one instead of the same tile.
