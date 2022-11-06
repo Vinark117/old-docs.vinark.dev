@@ -63,3 +63,5 @@ And with that We have a fully working rule tile with every possible scenario, do
 # Chapter 10: "Variations"
 
 So far we only covered how we can speed up the creation of rule tiles, but this tool is capable of doing way more than just that.
+
+Let's say you want to add slopes to your tileset, but because slopes are basically just corner pieces in disguise you can't just add them to the same rule tile, so you create a different rule tile, but this rule tile doesn't connect to the non sloped variants, so it's completely useless... Well, there's a solution for that.
