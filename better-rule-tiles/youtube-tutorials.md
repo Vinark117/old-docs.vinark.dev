@@ -65,3 +65,11 @@ And with that We have a fully working rule tile with every possible scenario, do
 So far we only covered how we can speed up the creation of rule tiles, but this tool is capable of doing way more than just that.
 
 Let's say you want to add slopes to your tileset, but because slopes are basically just corner pieces in disguise you can't just add them to the same rule tile, so you create a different rule tile, but this rule tile doesn't connect to the non sloped variants, so it's completely useless... Well, there's a solution for that.
+
+I've set up the a feeeew rules for slopes. I know this looks a bit intimidating but the layout doesn't matter right now, you can have as many or as little slopes as you want, and the process will be the same. So... I've created four new tiles, one for each corner, and set up the rules that are only specific to the slopes. If we try this out right now you'll see that it doesn't really work as you'd want it to. 
+
+If you just draw with it regularly only the slope parts will show up, all the other tiles will display the default tile. This is quite obvious why it doesn't work, there are no rules set up for any of these scenarios, but you surely don't want to recreate the base tilemap four more times just so you can have slopes. Well, you don't have to. If you select the tile and look into the tile inspector window, you'll see an option called "Unique tile", this is set to true by default, but if you change it to false a dropdown will appear where you can select another tile. If this toggle is set to false this selected tile will be used to fill any missing rules in the tile. So if we select the "obstacle", it will add the missing rules from the obstacle tile to this tile.
+
+Let's change all the slopes to use the "obstacle" tile as a base, than generate the tiles.
+
+Now if you draw with these slopes again, you'll see that the sprites that were previously defaulted, now will display the proper sprite, based on the "obstacle" rule tile.
