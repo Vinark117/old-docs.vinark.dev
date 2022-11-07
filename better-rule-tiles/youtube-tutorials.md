@@ -44,7 +44,7 @@ Select the brush tool from the top-left corner of the screen, with this you can 
 
 If we go to the export options and click on the export button right now, you'll see that only this sprite is present in the tile, and it's rules match the neighbors in the editor. You can also see that the settings we applied to the tile itself got applied to the exported tile, like the name and the default sprite.
 
-# Chapter 08: "Making more rules"
+## Chapter 08: "Making more rules"
 
 But this tool is not to just do the same thing as in the default inspector, here you can draw real scenarios to the grid and specify the rules of that, so it's way easier te create and manage all of the different rules. So let's just do that.
 
@@ -54,13 +54,13 @@ We can also check use this tile in the scene too. So let's create a tile palette
 
 This is also a good time to mention that even thougt you can place every tile right next to each other, sometimes you have to separate them so it covers more scenarios. In this example you can see that even though we already specified the edge pieces that should go there, it still uses the default sprite. This is because we only specified a scenario where all 3 tiles around it are empty, which in this case is not true, so we have to create a scenario which would be used for every edge piece. We can take the 3 by 3 square to separate it to edges and corners. I used the select tool along with the copy and paste functions to create a duplicate of the 3 by 3 square. After that I used the eraser tool to remove the sprites and the brush tool along with the delete tile to delete the tiles. You can also delete the 2 by 2 square because these tiles are already in the 3 by 3 configuration. Now if you check the tiles, the edge pieces are properly displayed.
 
-# Chapter 09: "Making a complete tileset"
+## Chapter 09: "Making a complete tileset"
 
 Using these techniques you can create a complete tileset. There's a sample rule tile included with the full package, so if you're having trouble figuring out the rules, or just want to save some time you can use this template to create your rule tile. Copy-pasting does not work across different editors unfortunately, but it should be fairly easy to copy the layout from one editor to another. Or if you want to create a new tile based on this you can just duplicate the asset and edit it directly, I'll do the latter because it'll save some time.
 
 And with that We have a fully working rule tile with every possible scenario, done under 10 minutes.
 
-# Chapter 10: "Variations"
+## Chapter 10: "Variations"
 
 So far we only covered how we can speed up the creation of rule tiles, but this tool is capable of doing way more than just that.
 
