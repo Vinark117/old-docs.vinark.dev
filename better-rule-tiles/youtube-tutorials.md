@@ -72,4 +72,26 @@ If you just draw with it regularly only the slope parts will show up, all the ot
 
 Let's change all the slopes to use the "obstacle" tile as a base, than generate the tiles.
 
-Now if you draw with these slopes again, you'll see that the sprites that were previously defaulted, now will display the proper sprite, based on the "obstacle" rule tile.
+Now if you draw with these slopes again, you'll see that the sprites that were previously defaulted, now will display the proper sprite, based on the "obstacle" rule tile. 
+
+You can use the tile now as it is, but most likely you want to use it together with the other variants. Luckily there's an option for that too. For this you have to look at the **"Add variations"** option in the tile inspector. The tile you're editing will connect to any other tile you add here, you just simply select the tile from the dropdown and click the add button to add it. I want all 5 tiles to connect to each other, so I'll add all of them on all of the tiles.
+
+If you generate these tiles one more time, and try them out, you'll see that now they're all connecting to each other, so you can add those slopes anywhere you want.
+
+## Chapter 11: "Extended rules"
+
+There's one more feature I want to show before moving to another tileset. You were probably wondering for some time now if you could add randomized or animated tiles, or even extend the range where the tile checks for neighbors. Well... These are all possible with this tool. If you go to the top-left corner of your screen, you can see an icon with a mouse and a cog. That's the grid cell inspector tool. After selecting the tool and clicking a tile on the grid, the inspector window will show the properties of that specific grid cell. Here you can change the settings of the tiling rule the same way you could in a regular rule tile, with the only difference that this grid only specifies where to check, and not what to check for, so it's way faster to add a larger number of places.
+
+If you have some tiles on the grid with modified properties, there's an option in the top-right corner to highlight them, so you can find them easier.
+
+## Chapter 12: "Other tile shapes"
+
+I've showed everything I can with these tilemaps, but what if you want to work with isometric or hexagonal tiles? Well, the tool supports all grid types you'd want to work with. At the export options in the top-right corner there's the grid type option which is set to square by default. Changing this will change the grid shape... obviously. It's better to do this before starting to work on your tilemaps, because the hexagonal tilemaps for example use a different coordinate system, so changing between these two grid types can mess with the placement of the tiles.
+
+You can also change the size of the grids in the dropdown next to the export options, or add an offset if your tiles are not aligned properly, along with a few other editor settings.
+
+## Chapter 13: "The end"
+
+I have lots of tips and trick that I could show you regarding this tool, but it would be quite a long video, so I'll wrap it up here. If you need more detailed description regarding this tool, there's a documentation I've written where you can find descriptions of every setting and option there is in the tool. You can also join my discord server if you need any help. Both links are in the description of this video, along with the page for the tool itself. I hope you liked this video, and especially the tool I created. 
+
+That's it for this video. Seeya.
