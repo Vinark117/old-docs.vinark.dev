@@ -20,7 +20,7 @@ After you've dowloaded the package, you need to add it to your project. It comes
 
 ## Chapter 04: "Creating the asset"
 
-To open the editor you first have to create a **"Better rule tile container"** asset. You can find this in the create asset menu at **"Create/2D/Tiles/"**. This asset is the heart of the editor, this stores all the data of to the editor, and after you're done and generated the tiles, they'll also be stored in this asset. You can open the editor by double clicking on this asset, or by clicking the open button in the editor. You can create as many containers as you want and they'll each have their own editor, so you can edit multiple tilemaps simultaniously.
+To open the editor you first have to create a **"Better rule tile container"** asset. You can find this in the create asset menu by navigating to **"Create/2D/Tiles/"**. This asset is the heart of the editor, this stores all the data of the editor, and after you're done and generated the tiles, they'll also be stored in this asset. You can open the editor by double clicking on this asset, or by clicking the open button in the editor. You can create as many containers as you want and they'll each have their own editor, so you can edit multiple tilemaps simultaniously.
 
 ## Chapter 05: "Adding the sprites"
 
@@ -50,7 +50,7 @@ But this tool is not to just do the same thing as in the default inspector, here
 
 I'm gonna start by creating a 1 by 1, 2 by 2 and a 3 by 3 square. than export the rule tile so we can check out the changes. As you can see all the 10 different tiles got added to the rule tile with their respective rules. 
 
-We can also check use this tile in the scene too. So let's create a tile palette and add the tile onto it. Now if we draw with this tile you can see that if we create a block it will have the correct rules. Of course if we create other shapes whis won't really work so we need to add some more rules.
+We can also check this tile in the scene too. So let's create a tile palette and add the tile onto it. Now if we draw with this tile you can see that if we create a block it will have the correct rules. Of course if we create other shapes whis won't really work so we need to add some more rules.
 
 This is also a good time to mention that even thougt you can place every tile right next to each other, sometimes you have to separate them so it covers more scenarios. In this example you can see that even though we already specified the edge pieces that should go there, it still uses the default sprite. This is because we only specified a scenario where all 3 tiles around it are empty, which in this case is not true, so we have to create a scenario which would be used for every edge piece. We can take the 3 by 3 square to separate it to edges and corners. I used the select tool along with the copy and paste functions to create a duplicate of the 3 by 3 square. After that I used the eraser tool to remove the sprites and the brush tool along with the delete tile to delete the tiles. You can also delete the 2 by 2 square because these tiles are already in the 3 by 3 configuration. Now if you check the tiles, the edge pieces are properly displayed.
 
@@ -86,12 +86,12 @@ If you have some tiles on the grid with modified properties, there's an option i
 
 ## Chapter 12: "Other tile shapes"
 
-I've showed everything I can with these tilemaps, but what if you want to work with isometric or hexagonal tiles? Well, the tool supports all grid types you'd want to work with. At the export options in the top-right corner there's the grid type option which is set to square by default. Changing this will change the grid shape... obviously. It's better to do this before starting to work on your tilemaps, because the hexagonal tilemaps for example use a different coordinate system, so changing between these two grid types can mess with the placement of the tiles.
+I've showed everything I can with these tilemaps, but what if you want to work with isometric or hexagonal tiles? Well, the tool supports all grid types you'd want to work with. At the export options in the top-right corner there's the grid type option which is set to square by default. Changing this will change the grid shape. It's better to do this before starting to work on your tilemaps, because the hexagonal tilemaps for example use a different coordinate system, so changing between these two grid types can mess with the placement of the tiles.
 
 You can also change the size of the grids in the dropdown next to the export options, or add an offset if your tiles are not aligned properly, along with a few other editor settings.
 
 ## Chapter 13: "The end"
 
-I have lots of tips and trick that I could show you regarding this tool, but it would be quite a long video, so I'll wrap it up here. If you need more detailed description regarding this tool, there's a documentation I've written where you can find descriptions of every setting and option there is in the tool. You can also join my discord server if you need any help. Both links are in the description of this video, along with the page for the tool itself. I hope you liked this video, and especially the tool I created. 
+I have lots of tips and trick that I could show you regarding this tool, but it would be quite a long video, so I'll wrap it up here. If you need more detailed description of this tool, there's a documentation I've written where you can find descriptions of every setting and option there is in the tool. You can also join my discord server if you need any help. Both links are in the description of this video, along with the page for the tool itself. I hope you liked this tutorial, and especially the tool I created. 
 
-That's it for this video. Seeya.
+That's it for this video. Bye.
