@@ -1,8 +1,12 @@
 # <!-- {docsify-ignore} -->
 
-# Version 0.1.0
+# Version 1.0.0
 
 Initial release
+
+# Report bugs
+
+To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Please try to not report bugs that have been already reported, to keep the discussion board more organized.
 
 # Known issues
 
