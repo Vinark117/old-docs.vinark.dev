@@ -62,7 +62,6 @@ There are even more settings in the **other settings** dropdown, which you can o
 
 And finally, under the **export options** you can change settings regarding how should the final rule tiles be generated:
 - **Grid tyle** - The shape of the [grid](./better-rule-tiles/get-started?id=the-grid).
-- **Add missing rules** - When this option is enabled, the missing rules in [tile variations](./better-rule-tiles/tile-creation?id=unique-tiles-and-tile-variations) will be filled in from the [parent tile](./better-rule-tiles/tile-creation?id=unique-tiles-and-tile-variations).
 - **Simplify similar rules** - If this option is enabled, when generating the tiles it checks which tiles which have the same sprite, finds a common pattern between them and replaces them with one rule that applies for all. For example:
 
 ![Simplify rules](./images/simplify-rules.png)
