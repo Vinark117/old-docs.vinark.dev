@@ -4,6 +4,12 @@
 
 Initial release
 
+# Version 1.0.1
+
+- Added support for differently sliced isometric tiles, previously it only supported square sliced sprites.
+- Updated package dependencies to reflect the minimum supported versions of packages and unity version.
+- The tool now supports Unity 2020
+
 # Report bugs
 
 To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Please try to not report bugs that have been already reported, to keep the discussion board more organized.
