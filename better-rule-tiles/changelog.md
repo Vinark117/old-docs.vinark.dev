@@ -28,3 +28,15 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
     ```
 
     This error does not cause any problems, but unfortunately I wasn't able to find and remove the cause of it.
+
+- The editor window occasionally throws these errors:
+
+    ```
+    GUI Error: Invalid GUILayout state in BetterRuleTileEditor view. Verify that all layout Begin/End calls match
+    UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+    GUI Error: You are pushing more GUIClips than you are popping. Make sure they are balanced.
+    UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)  
+    ```
+
+    This error also doesn't cause any problems. It mostly gets thrown when a window in the editor changes sizes.
