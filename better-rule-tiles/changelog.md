@@ -40,3 +40,5 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
     ```
 
     This error also doesn't cause any problems. It mostly gets thrown when a window in the editor changes sizes.
+
+- The random sprites option can behave weirdly. Time and cause of this bug is currently unknown.
