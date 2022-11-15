@@ -21,7 +21,7 @@ Get Started with the tool on the [get started](./better-rule-tiles/get-started)<
 
 # Development
 
-Follow the state of the project's development on it's [trello page](https://trello.com/b/pLpR4pdV/better-rule-tile).<br>
+
 Found a bug? You can report it [here](https://itch.io/t/2381185/bug-reports).<br>
 Do you have an idea you feel like should be added to the tool? You can post it [here](https://itch.io/t/2381181/feature-request).<br>
 Get involved in the development of this and other projects on my [discord server](https://discord.gg/DKpbVKk).<br>
@@ -29,4 +29,11 @@ Find tutorials about the package, and other useful and interesting content on my
 
 # Frequently asked questions
 
-If you have any questions about the package you can ask it on my social pages.
+**Q: My sprites get displayed as missing textures.**<br>
+A: Select your image file, and in the inspector under advanced settings enable `Read/Write`, after that close the editor and reopen it again to see the changes get applied. [Read more.](./better-rule-tiles/tile-creation?id=adding-sprites-to-the-grid)
+
+**Q: My sprites are stretched on the grid.**<br>
+A: Select your image file, and in the inspector change the `mesh type` from tight to `full rect`, this will make sure blank spaces are not left out from the image. After that close the editor and reopen it again to see the changes get applied.
+
+**Q: My tiles are blank when I place them into the tile palette.**<br>
+A: You have to set the `default sprite` option in the tile. If no rules match (which are pretty likely in the tile palette) than the default sprite is shown, if that's empty it shows nothing. [Read more.](./better-rule-tiles/tile-creation?id=rule-tile-options)

@@ -68,6 +68,8 @@ To create [tiling rules](./better-rule-tiles/tile-creation?id=setting-tiling-rul
 
 After you've added the sprites to the grid, you can use the [picker tool](./better-rule-tiles/get-started?id=toolbar) to select a sprite and the [brush tool](./better-rule-tiles/get-started?id=toolbar) to paint with it.
 
+> Note: If your sprites get displayed as missing textures, select your image file and in the inspector, under advanced settings enable `Read/Write`, after that close the editor and reopen it again to see the changes get applied.
+
 # Setting tiling rules
 
 Setting rules is similar to setting them in the default rule tile, but instead of individually clicking each grid cell to cycle between the options, here you can just select the option than draw it on the grid. This way you can create rules way more faster than regular rule tiles. To place the rule ***"this"*** (which in a regular rule tile is the green arrow), you just need to draw the same tile next to one that has a sprite assigned, and if you want the rule ***"not this"*** (the red cross on the regular rule tile), you just draw with the tile **not same**. And to ignore the tile you just don't place anything there.

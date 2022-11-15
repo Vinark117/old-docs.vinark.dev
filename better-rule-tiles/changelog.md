@@ -8,11 +8,23 @@ Initial release
 
 - Added support for differently sliced isometric tiles, previously it only supported square sliced sprites.
 - Updated package dependencies to reflect the minimum supported versions of packages and unity version.
-- The tool now supports Unity 2020
+- The tool now supports Unity 2020.
+
+# Version 1.1.0
+
+- Changed toolbar button placement code to be more dynamic.
 
 # Report bugs
 
 To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Please try to not report bugs that have been already reported, to keep the discussion board more organized.
+
+# Planned features
+
+- A sprite drawer to quickly select sprites
+- Ability to lock and unlock a selection, so it can't be edited accidentally
+- Highlight important fields
+- Prompts to help users navigate the tool
+- More samples with tilemaps and scenes
 
 # Known issues
 
@@ -42,3 +54,4 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
     This error also doesn't cause any problems. It mostly gets thrown when a window in the editor changes sizes.
 
 - The random sprites option can behave weirdly. Time and cause of this bug is currently unknown.
+- Hexagon grid zooming doesn't center around the mouse cursor properly.
