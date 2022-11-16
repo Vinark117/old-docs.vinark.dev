@@ -13,6 +13,8 @@ Initial release
 # Version 1.1.0
 
 - Changed toolbar button placement code to be more dynamic.
+- Added the ability to lock and unlock a selection, so it can't be edited accidentally.
+- Added a warning message if the default sprite was not assigned.
 
 # Report bugs
 
@@ -21,8 +23,6 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
 # Planned features
 
 - A sprite drawer to quickly select sprites
-- Ability to lock and unlock a selection, so it can't be edited accidentally
-- Highlight important fields
 - Prompts to help users navigate the tool
 - More samples with tilemaps and scenes
 
