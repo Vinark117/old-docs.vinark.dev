@@ -1,6 +1,4 @@
 
-
-<!--* <t style="font-size:1vw; font-weight:bold">Vinark Docs</t>-->
 * [Home](./)
 
 <br>
@@ -12,6 +10,7 @@
 * [About Rules](./better-rule-tiles/rules)
 * [C# Reference](./better-rule-tiles/cs-reference)
 * [Changelog](./better-rule-tiles/changelog)
+* [Known Issues](./better-rule-tiles/known-issues)
 
 <!--
 <br>
