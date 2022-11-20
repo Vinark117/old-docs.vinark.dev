@@ -4,9 +4,11 @@
 ## Version 1.X
 
 - Fixed a build error.
-- Tested and verified compatibility with Unity 2019
-- Changed how locked cells are displayed
-- Added options to customize how locked cells are displayed
+- Tested and verified compatibility with Unity 2019.
+- Changed how locked cells are displayed.
+- Added options to customize how locked cells are displayed.
+- Added a sprite drawer.
+- Added options to customize the new sprite drawer.
 
 ## Version 1.1.0
 
