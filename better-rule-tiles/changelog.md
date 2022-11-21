@@ -1,7 +1,7 @@
 # <!-- {docsify-ignore} -->
 # Changelog
 
-## Version 1.X
+## Version 1.2.0
 
 - Tested and verified compatibility with Unity 2019.
 - Changed how locked cells are displayed.
@@ -29,6 +29,5 @@ Initial release
 
 # Planned features
 
-- A sprite drawer to quickly select sprites
 - Prompts to help users navigate the tool
 - More samples with tilemaps and scenes

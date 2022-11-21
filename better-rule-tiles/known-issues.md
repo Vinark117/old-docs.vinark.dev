@@ -32,4 +32,4 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
 
 - The random sprites option can behave weirdly. Time and cause of this bug is currently unknown.
 - Hexagon grid zooming doesn't center around the mouse cursor properly.
-
+- Sprite drawer cannot be moved
