@@ -9,7 +9,7 @@
 - Added a sprite drawer.
 - Added options to customize the new sprite drawer.
 - Import all sprites with a single button press.
-- Fixed a build error related to the Functions class
+- Fixed a build error related to the Functions class.
 
 ## Version 1.1.0
 
