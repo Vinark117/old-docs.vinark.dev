@@ -24,7 +24,7 @@ To open the editor you first have to create a **"Better rule tile container"** a
 
 ## Chapter 05: "Adding the sprites"
 
-To get started with creating rule tiles in the editor you first need to import the sprites because there are no tiles without sprites. To import sprites you just simply drag and drop them into the editor. If you have a sliced tilemap, it will import all sprites. You can also add the sprites one by one if you need to.
+To get started with creating rule tiles in the editor you first need to import the sprites. To import sprites you just simply drag and drop them into the editor. If you have a sliced tilemap, it will import all sprites. You can also add the sprites one by one if you need to.
 
 If the images appear as missing textures in the editor, you have to check the **read and write enable option** in the images' import settings, after that you have to close the editor and reopen it again and your textures will appear.
 
