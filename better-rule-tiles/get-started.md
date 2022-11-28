@@ -87,6 +87,7 @@ And finally, under the **export options** you can change settings regarding how 
 - **Grid tyle** - The shape of the [grid](./better-rule-tiles/get-started?id=the-grid).
 - **Simplify similar rules** - If this option is enabled, when generating the tiles it checks which tiles which have the same sprite, finds a common pattern between them and replaces them with one rule that applies for all. For example:
 - **Generate tiles** - Clicking this button will generate the rule tiles based on the editor.
+
 ![Simplify rules](./images/simplify-rules.png)
 
 ## The tile drawer
