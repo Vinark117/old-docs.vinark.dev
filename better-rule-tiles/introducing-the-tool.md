@@ -2,7 +2,7 @@
 
 # Introducing the tool <!-- {docsify-ignore} -->
 
-[![The Solution to ALL of Your Rule Tile Problems!](./images/youtube-thumbnail.png)](https://www.youtube.com/channel/UCo-V8qAlHZWFRkUDCtc0cyQ)
+[![The Solution to ALL of Your Rule Tile Problems!](./images/youtube-thumbnail.png)](https://youtu.be/dd1Fe3AiWdw)
 
 ## Chapter 01: "Intro"
 

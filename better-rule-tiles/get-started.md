@@ -58,12 +58,12 @@ There are even more settings in the **other settings** dropdown, which you can o
 ### Drawers
 
 - **Tile drawer size** - Determines the size of the **tile drawer**.
-- **Sprite drawer height** -
-- **Sprite drawer collumns** -
-- **Expanded drawer collumns** -
-- **Save sprite drawer** -
-- **Clear sprite drawer** -
-- **Add all sprites** -
+- **Sprite drawer height** - Determines the size of the buttons in the **sprite drawer**.
+- **Sprite drawer collumns** - Determines how many collumns should the **sprite drawer** have when collapsed.
+- **Expanded drawer collumns** - Determines how many collumns should the **sprite drawer** have when expanded.
+- **Save sprite drawer** - If this option is enabled, the sprite drawer will remember the sprites inside it when opening the editor again. If you have a lot of sprites enabling this could cause the editor to load in slower.
+- **Clear sprite drawer** - Removes all unused sprites from the **sprite drawer**
+- **Add all sprites** - Finds and adds all sprite resources from the project to the **sprite drawer**.
 
 ### Grid
 
@@ -75,9 +75,11 @@ There are even more settings in the **other settings** dropdown, which you can o
 
 ### Locked cells
 
-- **Show locked overlay** - 
-- **Show locked outline** - 
-- **Outline color** - 
+You can lock and unlock tiles with the **lock** and **unlock** buttons on the [toolbar](./better-rule-tiles/get-started?id=special-tools). With these settings you can change how those tiles are displayed.
+
+- **Show locked overlay** - Should the tile display a striped overlay over the locked tile?
+- **Show locked outline** - Should locked tiles be outlined?
+- **Outline color** - What color should the locked tiles be outlined with?
 
 ### Export options
 
@@ -138,8 +140,9 @@ It is located in the top left corner of the editor, the toolbar contains all of 
 
 ### Special tools
 
-- **Lock selection** - 
-- **Unlock selection** -
+- **Lock selection** - After selecting an area with the **selection tool** in the [toolbar](./better-rule-tiles/get-started?id=the-toolbar), you can press this button the **lock the tiles** inside that area. Locked tiles can not be moved, deleted or edited, so you won't accidentally modify them. You can change how the locked tiles are displayed in the [drawer settings](./better-rule-tiles/get-started?id=drawers). You can change how locked tiles are displayed in the [locked tile settings](./better-rule-tiles/get-started?id=locked-cells)
+
+- **Unlock selection** - After selecting an area with the **selection tool** in the [toolbar](./better-rule-tiles/get-started?id=the-toolbar), you can press this button the **unlock the tiles** inside that area.
 
 - **Replace selection** - this tool enables you to **replace tiles and sprites** to different ones in the **currently selected area**. When replacing tiles, it just finds every x type of tile and replaces it with the tile you specified. When replacing sprites, it looks at the file name, finds the section which matches with the string you specified, and replaces that section to the new string. I.e. 
 
