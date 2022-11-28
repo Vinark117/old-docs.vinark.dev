@@ -41,8 +41,10 @@ There are 3 different types of grids you can work in: **square**, **isometric** 
 > *Note, it's best to change the grid type before you start working on anything, to avoid displacement of the grid due to the different coordinate systems.*
 
 ## The editor settings
+### Settings toolbar
 
 There are a few settings you can tweak to help you in the editor:
+- **Show sprite drawer** - When this option is enabled you'll see a sprite drawer on the left side of the editor.
 - **Highlight modified cells** - When this option is enabled it highlights grid cells with a flashing outline, which have been modified in the **inspector window**.
 - **Show ruler** - When enabled, it shows a ruler on the bottom and left side of the window, to help orient yourself on the grid.
 
@@ -51,19 +53,38 @@ There are a few settings you can tweak to help you in the editor:
 - **Lock windows** - If this option is enabled all of the floating windows will be locked to either corners of the editor. If you disable this option you can freely drag the floating windows anywhere inside the editor. If the windows disapper after resizing the editor, you can enable this option to bring those windows back.
 - **Hide sprites** - When this option is enabled, it will hide the **sprite layer**. This option can be used to check if there's a tile under a sprite or not.
 
-
 There are even more settings in the **other settings** dropdown, which you can open by clicking the corresponding button. This dropdown has a few settings inside:
-- **Drawer size** - Determines the size of the **tile drawer**.
+
+### Drawers
+
+- **Tile drawer size** - Determines the size of the **tile drawer**.
+- **Sprite drawer height** -
+- **Sprite drawer collumns** -
+- **Expanded drawer collumns** -
+- **Save sprite drawer** -
+- **Clear sprite drawer** -
+- **Add all sprites** -
+
+### Grid
+
 - **Current zoom** - Here you can manually enter the current zoom amount of the grid. The larger the zoom amount the larger the grid cells appear. You can also **use your mouse scrool wheel to zoom in and out**, so this option was mostly intended to input more specific values.
 - **Render small grid** - If this option is disabled, zooming far out will cause the grid lines to disappear. This option is most useful when working in a **hexagonal grid**, as the grid is not all straight lines, rendering a large small grid could be quite resource intensive.
 - **Zoom treshold** - This value determines when should the grid disapper when the **render small grid** option is disabled. The grid will stop rendering if the current zoom value is less than the zoom treshold.
 - **Grid size** - Determines how large should the grid be when the **current zoom** value is one.
 - **Grid cell offset** - You can change this option if your sprites don't line up with the grid lines.
 
+### Locked cells
+
+- **Show locked overlay** - 
+- **Show locked outline** - 
+- **Outline color** - 
+
+### Export options
+
 And finally, under the **export options** you can change settings regarding how should the final rule tiles be generated:
 - **Grid tyle** - The shape of the [grid](./better-rule-tiles/get-started?id=the-grid).
 - **Simplify similar rules** - If this option is enabled, when generating the tiles it checks which tiles which have the same sprite, finds a common pattern between them and replaces them with one rule that applies for all. For example:
-
+- **Generate tiles** - Clicking this button will generate the rule tiles based on the editor.
 ![Simplify rules](./images/simplify-rules.png)
 
 ## The tile drawer
@@ -116,6 +137,9 @@ It is located in the top left corner of the editor, the toolbar contains all of 
 ![Actions](./images/actions.gif)
 
 ### Special tools
+
+- **Lock selection** - 
+- **Unlock selection** -
 
 - **Replace selection** - this tool enables you to **replace tiles and sprites** to different ones in the **currently selected area**. When replacing tiles, it just finds every x type of tile and replaces it with the tile you specified. When replacing sprites, it looks at the file name, finds the section which matches with the string you specified, and replaces that section to the new string. I.e. 
 
