@@ -1,6 +1,15 @@
 # <!-- {docsify-ignore} -->
 # Changelog
 
+## Version 1.3.1
+
+- Changed the way the editor handles arrays.
+
+## Version 1.3.0
+
+- Added a new sprite output type: Pattern
+- Other backend changes.
+
 ## Version 1.2.0
 
 - Tested and verified compatibility with Unity 2019.
