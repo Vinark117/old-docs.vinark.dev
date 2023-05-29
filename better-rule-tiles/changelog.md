@@ -1,13 +1,19 @@
 # <!-- {docsify-ignore} -->
 # Changelog
 
-## Version 1.3.1
+## Version 1.3.3
+
+- Fixed bug: Tiles randomly disappear from the grid and the tile drawer.
+- Fixed bug: Editor crashes when entering or exiting play mode.
+- Added a "Close window" button to the container asset, in case you can't close the window in any other way.
+
+## Version 1.3.1 & Version 1.3.2
 
 - Changed the way the editor handles arrays.
 
 ## Version 1.3.0
 
-- Added a new sprite output type: Pattern
+- Added a new sprite output type: Pattern.
 - Other backend changes.
 
 ## Version 1.2.0
@@ -38,5 +44,9 @@ Initial release
 
 # Planned features
 
+- Rename tile variations to make things clearer for the user
 - Prompts to help users navigate the tool
 - More samples with tilemaps and scenes
+- Replace tool to replace all output sprites of a tile
+- Replace hide sprites option with tile highlighting instead
+- Add an option to treat parent tiles as a separate tile, but still transfer their rules over

@@ -5,7 +5,7 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
 
 # Known issues
 
-- Editor window throws this error:
+<!--- Editor window throws this error:
 
     ```
     Resolve of invalid GC handle. The handle is from a previous domain. The resolve operation is skipped.
@@ -16,9 +16,9 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
     UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
     ```
 
-    This error does not cause any problems, but unfortunately I wasn't able to find and remove the cause of it.
+    This error does not cause any problems, but unfortunately I wasn't able to find and remove the cause of it.-->
 
-- The editor window occasionally throws these errors:
+<!-- - The editor window occasionally throws these errors:
 
     ```
     GUI Error: Invalid GUILayout state in BetterRuleTileEditor view. Verify that all layout Begin/End calls match
@@ -28,8 +28,9 @@ To report a bug head to [this page](https://itch.io/t/2381185/bug-reports). Plea
     UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)  
     ```
 
-    This error also doesn't cause any problems. It mostly gets thrown when a window in the editor changes sizes.
+    This error also doesn't cause any problems. It mostly gets thrown when a window in the editor changes sizes. -->
 
 - The random sprites option can behave weirdly. Time and cause of this bug is currently unknown.
 - Hexagon grid zooming doesn't center around the mouse cursor properly.
 - Sprite drawer cannot be moved
+- Unity 2022.2 2D URP - sprites are not displayed correctly
