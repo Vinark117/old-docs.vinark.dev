@@ -50,3 +50,8 @@ Initial release
 - Replace tool to replace all output sprites of a tile
 - Replace hide sprites option with tile highlighting instead
 - Add an option to treat parent tiles as a separate tile, but still transfer their rules over
+- Add a button to the tile settings to export that tile as either a custom tile or a default rule tile
+- Add a confirmation screen for deleting a tile
+- Universal sprite settings, for setting random or animated sprites that apply to all rules which use the specific sprite
+- Gridcell configuration picker tool
+- An option to bump up the priority of the rule
