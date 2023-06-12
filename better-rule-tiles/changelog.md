@@ -55,3 +55,4 @@ Initial release
 - Universal sprite settings, for setting random or animated sprites that apply to all rules which use the specific sprite
 - Gridcell configuration picker tool
 - An option to bump up the priority of the rule
+- A tool that creates "preset blocks". You'd create these preset blocks by selecting an area and clicking on a create block button. In a preset block, every tile checks for every other tile in the block. It'd besically act like if you'd select every tile in the selected area and set the selected area as the area to check the neighbors.
