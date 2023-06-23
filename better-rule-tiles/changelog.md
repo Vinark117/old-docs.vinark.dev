@@ -1,6 +1,11 @@
 # <!-- {docsify-ignore} -->
 # Changelog
 
+## Version 1.4 (To be released)
+
+- Improved UI for better readability and separation between sections of the window
+- Renamed "tile variations" and "variation of" options to make them less confusing
+
 ## Version 1.3.3
 
 - Fixed bug: Tiles randomly disappear from the grid and the tile drawer.
@@ -44,7 +49,6 @@ Initial release
 
 # Planned features
 
-- Rename tile variations to make things clearer for the user
 - Prompts to help users navigate the tool
 - More samples with tilemaps and scenes
 - Replace tool to replace all output sprites of a tile
