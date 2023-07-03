@@ -57,6 +57,7 @@ Initial release
 - Add a button to the tile settings to export that tile as either a custom tile or a default rule tile
 - Add a confirmation screen for deleting a tile
 - Universal sprite settings, for setting random or animated sprites that apply to all rules which use the specific sprite
+- Option to set the animation start frame to a random frame, so the animation wouldn't be in sync with every tile. This would be determined based on a seed.
 - Gridcell configuration picker tool
 - An option to bump up the priority of the rule
 - A tool that creates "preset blocks". You'd create these preset blocks by selecting an area and clicking on a create block button. In a preset block, every tile checks for every other tile in the block. It'd besically act like if you'd select every tile in the selected area and set the selected area as the area to check the neighbors.
