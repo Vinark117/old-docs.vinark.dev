@@ -3,8 +3,9 @@
 
 ## Version 1.4 (To be released)
 
-- Improved UI for better readability and separation between sections of the window
-- Renamed "tile variations" and "variation of" options to make them less confusing
+- Improved UI for better readability and separation between sections of the window.
+- Renamed "tile variations" and "variation of" options to make them less confusing.
+- Added a confirmation window when deleting a tile.
 
 ## Version 1.3.3
 
