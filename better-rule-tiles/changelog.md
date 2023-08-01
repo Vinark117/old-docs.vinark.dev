@@ -3,9 +3,13 @@
 
 ## Version 1.4 (To be released)
 
+- Added a new "Universal sprite settings" window
+- Separated the "sprite drawer" toolbar button and added a new button to open the "Universal sprite settings"
+- Added an "Enable universal sprite settings" option to the export menu, this option is enabled by default on newly created assets, and disabled on already created assets
 - Improved UI for better readability and separation between sections of the window.
 - Renamed "tile variations" and "variation of" options to make them less confusing.
 - Added a confirmation window when deleting a tile.
+- Fixed error which caused the game to not build
 
 ## Version 1.3.3
 
