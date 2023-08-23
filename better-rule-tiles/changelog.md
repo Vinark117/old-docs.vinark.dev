@@ -3,13 +3,15 @@
 
 ## Version 1.4 (To be released)
 
-- Added a new "Universal sprite settings" window
+- Added a new "Universal sprite settings" window, here you can change the output parameters of a sprite, so if you place that sprite down multiple times it'll always have the same output.
 - Separated the "sprite drawer" toolbar button and added a new button to open the "Universal sprite settings"
 - Added an "Enable universal sprite settings" option to the export menu, this option is enabled by default on newly created assets, and disabled on already existing assets
 - Improved UI for better readability and separation between sections of the window.
 - Renamed "tile variations" and "variation of" options to make them less confusing.
 - Added a confirmation window when deleting a tile.
 - Fixed error which caused the game to not build
+- Textures will be marked readeble automatically if they're not already, it's not required to set it manually anymore
+- Added a new "preset block" feature. Draw part of a scene in the editor and mark it as a preset block to make sure it'll look as you wanted it to.
 
 ## Version 1.3.3
 
@@ -52,7 +54,7 @@
 
 Initial release
 
-# Planned features
+# Possible upcoming features
 
 - Prompts to help users navigate the tool
 - More samples with tilemaps and scenes
@@ -65,5 +67,4 @@ Initial release
 - Option to set the animation start frame to a random frame, so the animation wouldn't be in sync with every tile. This would be determined based on a seed.
 - Gridcell configuration picker tool
 - An option to bump up the priority of the rule
-- A tool that creates "preset blocks". You'd create these preset blocks by selecting an area and clicking on a create block button. In a preset block, every tile checks for every other tile in the block. It'd besically act like if you'd select every tile in the selected area and set the selected area as the area to check the neighbors.
 - Ability to add tags to tiles and add variations based on those tags
