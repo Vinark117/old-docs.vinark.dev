@@ -10,8 +10,17 @@
 - Renamed "tile variations" and "variation of" options to make them less confusing.
 - Added a confirmation window when deleting a tile.
 - Fixed error which caused the game to not build
-- Textures will be marked readeble automatically if they're not already, it's not required to set it manually anymore
+- Textures will be marked readable automatically if they're not already, it's not required to set it manually anymore
 - Added a new "preset block" feature. Draw part of a scene in the editor and mark it as a preset block to make sure it'll look as you wanted it to.
+- Added more tooltips
+- Added samples each with their own tilemaps and scenes for the following features:
+    - simplify rules feature
+    - creating rules
+    - preset blocks
+    - connections between tiles
+    - universal sprite settings and sprite options
+    - variations
+    - custom properties
 
 ## Version 1.3.3
 
@@ -54,17 +63,17 @@
 
 Initial release
 
-# Possible upcoming features
 
-- Prompts to help users navigate the tool
-- More samples with tilemaps and scenes
-- Replace tool to replace all output sprites of a tile
+<!-- {docsify-ignore} 
+
+# Possible upcoming features
 - Replace hide sprites option with tile highlighting instead
 - Add an option to treat parent tiles as a separate tile, but still transfer their rules over
 - Add a button to the tile settings to export that tile as either a custom tile or a default rule tile
 - Add a confirmation screen for deleting a tile
-- Universal sprite settings, for setting random or animated sprites that apply to all rules which use the specific sprite
 - Option to set the animation start frame to a random frame, so the animation wouldn't be in sync with every tile. This would be determined based on a seed.
 - Gridcell configuration picker tool
 - An option to bump up the priority of the rule
 - Ability to add tags to tiles and add variations based on those tags
+
+-->
