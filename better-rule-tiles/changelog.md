@@ -1,7 +1,7 @@
 # <!-- {docsify-ignore} -->
 # Changelog
 
-## Version 1.4 (To be released)
+## Version 1.4
 
 - Added a new "Universal sprite settings" window, here you can change the output parameters of a sprite, so if you place that sprite down multiple times it'll always have the same output.
 - Separated the "sprite drawer" toolbar button and added a new button to open the "Universal sprite settings"
@@ -11,7 +11,7 @@
 - Added a confirmation window when deleting a tile.
 - Fixed error which caused the game to not build
 - Textures will be marked readable automatically if they're not already, it's not required to set it manually anymore
-- Added a new "preset block" feature. Draw part of a scene in the editor and mark it as a preset block to make sure it'll look as you wanted it to.
+- Added a new "preset block" feature. Draw part of a scene in the editor and mark it as a preset block to make sure it'll look as you wanted it to. To remove the preset block, use the tile inspector tool on a tile inside the preset block.
 - Added more tooltips
 - Added samples each with their own tilemaps and scenes for the following features:
     - simplify rules feature
@@ -21,6 +21,7 @@
     - universal sprite settings and sprite options
     - variations
     - custom properties
+- Toolbar now better adapts to the width of the editor window
 
 ## Version 1.3.3
 
