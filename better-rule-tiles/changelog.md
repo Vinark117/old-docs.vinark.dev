@@ -1,7 +1,13 @@
 # <!-- {docsify-ignore} -->
 # Changelog
 
-## Version 1.4
+## Version 1.4.1
+
+- Fixed sprite output transform when using universal sprite settings
+- Readded sprite output transform option when using preset blocks
+- Moving and pasting over something will now override what's already there
+
+## Version 1.4.0
 
 - Added a new "Universal sprite settings" window, here you can change the output parameters of a sprite, so if you place that sprite down multiple times it'll always have the same output.
 - Separated the "sprite drawer" toolbar button and added a new button to open the "Universal sprite settings"
