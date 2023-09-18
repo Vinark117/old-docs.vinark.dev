@@ -6,6 +6,8 @@
 - Fixed sprite output transform when using universal sprite settings
 - Readded sprite output transform option when using preset blocks
 - Moving and pasting over something will now override what's already there
+- Added support for light theme
+- Toolbar bugfix
 
 ## Version 1.4.0
 
